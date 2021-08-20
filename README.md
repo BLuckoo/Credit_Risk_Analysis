@@ -110,15 +110,19 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
   
 - **Balanced Accuracy Score:**  
   
-  This metric is used to evaluate how good a binary classifier is and is very useful whaen the classes are imbalanced (as is the case with the credit analysis). 
+  This metric is used to evaluate how good a binary classifier is and is not recommended whaen the classes are imbalanced (as is the case with the credit analysis). 
   In the first four models, using oversampling, undersampling and combination sampling, the balanced accuracy score are relatively the same and lower than the Ensemble Classifier  models.
-  Based on the accuracy scores alone, the Classifier models are more reliable at identifying high risk loans.
+  However, as the dataset inherently contains a much higher number of low risk loans, the accuracy score is not reliable in this case.
   
 - **Precision:**
   
-  The Precision scores from all six models for the low-risk loans come to 1.00. This is the result of the low-risk loans making up a high percentage of all the loans in the samples.
+  The Precision score, which quantifies the number of positive class predictions that actually belong to the positive class, from all six models for the low-risk loans come to 1.00. This is the result of the low-risk loans making up a high percentage of all the loans in the samples.
+  The precision score for the high-risk loans is relatively low for all six models - meaning the models potentially returns a high number of false positives for the high risk loans.
   
 - **Recall (Sensitivity):**
+  The recall score is an indication of how well the system returns predicted positive results, i.e. predicts low-risk when it is actually low risk and high-risk when it is actually high risk.
+  The recall scores from all six models are over 50%. The Ensemble models have much higher recall scores than the Oversampling or undersampling models.
+  The high recall (sensitivity) scores is an indication that the predicted low-risk or high-risk are being relatively reliable.
   
 - **F1 Score:**
   
