@@ -66,6 +66,28 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
  
 
 
+##
+## Using Ensemble Algorithms to assess Credit Risk
+##
+
+### **Balanced Random Forest Classifier:**
+  
+- Balanced Accuracy Score: 0.79
+- The high_risk precision is .03, recall score of 0.71 and an F1 score of 0.06
+- The high number of the low_risk population yields a precision of 1.0 with a sensitivity of 0.88 and an F1 score of 0.93
+  
+<p align="center">
+<image src = "https://user-images.githubusercontent.com/82583576/130230711-17525845-ea02-4ae8-be02-901777acbcdd.png"
+</p>  
+  
+The following image extract shows the top 15 features in order of importance:
+  
+<p align="center">
+<image src = "https://user-images.githubusercontent.com/82583576/130231068-027ea979-2ead-4128-acd8-f629cb4c12f9.png"
+</p>   
+  
+  
+  
 ## Summary
 
 In the first four models undersampled, oversampled and did a combination of both to try and determine which model is best at predicting which loans are the highest risk. 
