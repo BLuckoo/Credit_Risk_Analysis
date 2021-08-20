@@ -39,6 +39,17 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
 </p>
   
 
+  
+  
+### **Cluster Centroids Undersampling:**
+  
+- Balanced Accuracy Score: 0.63
+- The high_risk precision is .01, recall score of 0.57 and an F1 score of 0.02
+- The high number of the low_risk population yields a precision of 1.0 with a sensitivity of 0.68 and an F1 score of 0.81
+  
+<p align="center">
+<image src = "https://user-images.githubusercontent.com/82583576/130170434-fda441d1-a442-4bda-b263-31559acb5448.png"
+</p>
 
 
 
