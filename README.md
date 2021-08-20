@@ -68,8 +68,7 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
 
 ##
 ## Using Ensemble Algorithms to assess Credit Risk
-##
-
+###
 ### **Balanced Random Forest Classifier:**
   
 - Balanced Accuracy Score: 0.79
@@ -80,13 +79,25 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
 <image src = "https://user-images.githubusercontent.com/82583576/130230711-17525845-ea02-4ae8-be02-901777acbcdd.png"
 </p>  
   
-The following image extract shows the top 15 features in order of importance:
+- The following image extract shows the top 15 features in order of importance:
   
 <p align="center">
 <image src = "https://user-images.githubusercontent.com/82583576/130231068-027ea979-2ead-4128-acd8-f629cb4c12f9.png"
 </p>   
+
   
   
+### **Easy Ensemble AdaBoost Classifier**
+
+- Balanced Accuracy Score: 0.926
+- The high_risk precision is .08, recall score of 0.91 and an F1 score of 0.14
+- The high number of the low_risk population yields a precision of 1.0 with a sensitivity of 0.94 and an F1 score of 0.97
+  
+<p align="center">
+<image src = "https://user-images.githubusercontent.com/82583576/130232875-27f4ab41-d207-41f0-bc2f-cde9bed14ef2.png"
+</p>  
+  
+ 
   
 ## Summary
 
