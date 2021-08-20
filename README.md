@@ -101,10 +101,18 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
   
 ## Summary
 
+<p align="center">
+<image src = "https://user-images.githubusercontent.com/82583576/130280886-97b3da82-92fb-48a4-a3cc-6336302020ad.png"
+</p>  
+  
+  
+  
+  
 - **Balanced Accuracy Score:**  
   
   This metric is used to evaluate how good a binary classifier is and is very useful whaen the classes are imbalanced (as is the case with the credit analysis). 
-  
+  In the first four models, using oversampling, undersampling and combination sampling, the balanced accuracy score are relatively the same and lower than the Ensemble Classifier models.
+  Based on the accuracy scores alone, the Classifier models are more reliable at picking high risk loans.
   
 - **Precision:**
   
