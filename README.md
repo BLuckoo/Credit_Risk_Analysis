@@ -52,6 +52,18 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
 </p>
 
 
+  
+
+ ### **SMOTEENN - Combination Sampling to assess Credit Risk:**
+  
+- Balanced Accuracy Score: 0.65
+- The high_risk precision is .01, recall score of 0.72 and an F1 score of 0.02
+- The high number of the low_risk population yields a precision of 1.0 with a sensitivity of 0.58 and an F1 score of 0.73
+  
+<p align="center">
+<image src = "https://user-images.githubusercontent.com/82583576/130229510-927db442-5a18-4e4c-a2a9-2e15f64d69bd.png"
+</p>
+ 
 
 
 ## Summary
