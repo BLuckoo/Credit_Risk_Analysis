@@ -13,17 +13,31 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 For comparison, two new machine learning models that reduce bias, ***"BalancedRandomForestClassifier"*** and ***"EasyEnsembleClassifier"***, will be used to predict credit risk. 
 
 
+
 ## Results of the Analysis
 
 ### **Naive Random Oversampling:**
 
-- Balanced Accuracy Score: 66.67%
-- The high_risk precision is 1% with 67% sensitivity and an F1 score of 2%.
-- The high number of the low_risk population yields a precision of almost 100% with a sensitivity of 67%.
+- Balanced Accuracy Score: 0.67
+- The high_risk precision is .01, recall score of 0.67 and an F1 score of 0.02
+- The high number of the low_risk population yields a precision of 0.99 with a sensitivity of 0.67 and an F1 score of 0.80
 
 <p align="center">
 <image src = "https://user-images.githubusercontent.com/82583576/130167999-cf551ceb-dabf-4904-8773-87561ed5a78c.png"
 </p>
+
+  
+  
+### **SMOTE Oversampling:**
+  
+- Balanced Accuracy Score: 0.63
+- The high_risk precision is .01, recall score of 0.57 and an F1 score of 0.02
+- The high number of the low_risk population yields a precision of 1.0 with a sensitivity of 0.68 and an F1 score of 0.81
+  
+<p align="center">
+<image src = "https://user-images.githubusercontent.com/82583576/130170081-10fc30c0-84eb-4de8-8b62-9abc61844527.png"
+</p>
+  
 
 
 
