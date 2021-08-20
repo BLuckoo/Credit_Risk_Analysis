@@ -15,7 +15,26 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
 
 ## Results of the Analysis
 
+### **Naive Random Oversampling:**
+
+- Balanced Accuracy Score: 66.67%
+- The high_risk precision is 1% with 67% sensitivity and an F1 score of 2%.
+- The high number of the low_risk population yields a precision of almost 100% with a sensitivity of 67%.
+
+<p align="center">
+<image src = "https://user-images.githubusercontent.com/82583576/130167999-cf551ceb-dabf-4904-8773-87561ed5a78c.png"
+</p>
+
+
 
 
 
 ## Summary
+
+In the first four models undersampled, oversampled and did a combination of both to try and determine which model is best at predicting which loans are the highest risk. 
+The next two models resampled the data using ensemble classifiers to try and predict which which loans are high or low risk. 
+In the first four models, the accuracy score is not as high as the ensemble classifiers and the recall in the oversampling/undersampling/mixed models is low as well. 
+
+Typically in these models, a good result is when there is a good balance of recall and precision. Hence, the ensemble classifiers are better than the first four models.
+It appears that the Easy Ensemble had the best balance of all the models because of it's high accuracy score and good balance of precision and recall scores.
+
