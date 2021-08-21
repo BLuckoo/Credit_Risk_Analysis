@@ -116,7 +116,7 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
   
 - **Precision:**
   
-  The Precision score, which quantifies the number of positive class predictions that actually belong to the positive class, from all six models for the low-risk loans come to 1.00. This is the result of the low-risk loans making up a high percentage of all the loans in the samples.
+  The Precision score from all six models for the low-risk loans come to 1.00 – this quantifies the number of positive class predictions that actually belong to the positive class. This is the result of the low-risk loans making up a high percentage of all the loans in the samples.
   The precision score for the high-risk loans is relatively low for all six models - meaning the models potentially returns a high number of false positives for the high risk loans.
   
 - **Recall (Sensitivity):**
