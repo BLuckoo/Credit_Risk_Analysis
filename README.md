@@ -130,5 +130,5 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
   
   
 Typically in these models, a good result is when there is a good balance of recall and precision. Hence, the ensemble classifiers are better than the first four models.
-The Easy Ensemble had the best balance of all the models because of its high accuracy score and good balance of precision and recall scores - this makes it the best model to use.
+The Easy Ensemble Adaboost Classifier model had the best balance of all the models because of its high accuracy score and good balance of precision and recall scores - this makes it the best model to use.
 
