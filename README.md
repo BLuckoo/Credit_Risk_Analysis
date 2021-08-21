@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 
-Evaluating Credit Risk using resampling models
+Evaluating credit risk using resampling models
 
 ## Overview of the Loan Prediction Analysis
 
@@ -110,7 +110,7 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
   
 - **Balanced Accuracy Score:**  
   
-  This metric is used to evaluate how good a binary classifier is and is not recommended when the classes are imbalanced (as is the case with the credit analysis). 
+  This metric is used to evaluate how good a binary classifier is. It is not recommended when the classes are imbalanced (as is the case with the credit analysis). 
   In the first four models, using oversampling, undersampling and combination sampling, the balanced accuracy score are relatively the same and lower than the Ensemble Classifier  models.
   However, as the dataset inherently contains a much higher number of low risk loans, the accuracy score is not reliable in this case.
   
