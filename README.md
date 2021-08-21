@@ -126,9 +126,9 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
   
 - **F1 Score:**
   The F1 score is a combination of precision and recall (sensitivity). A high F1 score is an indication that the predictions have low quantities of false positives and false negatives.
-  All six models have a relatively high F1 score for the low risk loans (80% to 97%). However, the high risk loans have a much lower F1 score - potentially high number of false positives and false negatives. 
+  All six models have a relatively high F1 score for the low risk loans (80% to 97%). However, the high risk loans have a much lower F1 score (2% to 14%) - potentially high number of false positives and false negatives. 
   
   
 Typically in these models, a good result is when there is a good balance of recall and precision. Hence, the ensemble classifiers are better than the first four models.
-The Easy Ensemble had the best balance of all the models because of it's high accuracy score and good balance of precision and recall scores.
+The Easy Ensemble had the best balance of all the models because of its high accuracy score and good balance of precision and recall scores - this makes it the best model to use.
 
