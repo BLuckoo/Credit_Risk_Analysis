@@ -122,7 +122,7 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
 - **Recall (Sensitivity):**
   The recall score is an indication of how well the system returns predicted positive results, i.e. predicts low-risk when it is actually low risk and high-risk when it is actually high risk.
   The recall scores from all six models are over 50%. The Ensemble models have much higher recall scores than the oversampling or undersampling models.
-  The high recall (sensitivity) scores is an indication that the predicted low-risk or high-risk are being relatively reliable.
+  The high recall (sensitivity) scores is an indication that the predicted low-risk or high-risk are relatively reliable.
   
 - **F1 Score:**
   The F1 score is a combination of precision and recall (sensitivity). A high F1 score is an indication that the predictions have low quantities of false positives and false negatives.
