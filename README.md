@@ -129,10 +129,6 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
   All six models have a relatively high F1 score for the low risk loans (80% to 97%). However, the high risk loans have a much lower F1 score - potentially high number of false positives and false negatives. 
   
   
-In the first four models undersampled, oversampled and did a combination of both to try and determine which model is best at predicting which loans are the highest risk. 
-The next two models resampled the data using ensemble classifiers to try and predict which which loans are high or low risk. 
-In the first four models, the accuracy score is not as high as the ensemble classifiers and the recall in the oversampling/undersampling/mixed models is low as well. 
-
 Typically in these models, a good result is when there is a good balance of recall and precision. Hence, the ensemble classifiers are better than the first four models.
 The Easy Ensemble had the best balance of all the models because of it's high accuracy score and good balance of precision and recall scores.
 
