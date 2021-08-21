@@ -8,7 +8,7 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 This project employs different techniques to train and evaluate models with unbalanced classes. The ***"imbalanced-learn"*** and ***"scikit-learn"*** libraries will be used to build and evaluate models using resampling.
 
-Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, the data will be oversampled using the ***"RandomOverSampler"*** and ***"SMOTE"*** algorithms, and undersampled using the ***"ClusterCentroids"*** algorithm. A combination approach of over- and undersampling using the ***"SMOTEENN"*** algorithm will also be used.
+Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, the data will be oversampled using the ***"RandomOverSampler"*** and ***"SMOTE"*** algorithms, and undersampled using the ***"ClusterCentroids"*** algorithm. A combination approach of oversampling and undersampling using the ***"SMOTEENN"*** algorithm will also be used.
 
 For comparison, two new machine learning models that reduce bias, ***"BalancedRandomForestClassifier"*** and ***"EasyEnsembleClassifier"***, will be used to predict credit risk. 
 
@@ -110,7 +110,7 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
   
 - **Balanced Accuracy Score:**  
   
-  This metric is used to evaluate how good a binary classifier is and is not recommended whaen the classes are imbalanced (as is the case with the credit analysis). 
+  This metric is used to evaluate how good a binary classifier is and is not recommended when the classes are imbalanced (as is the case with the credit analysis). 
   In the first four models, using oversampling, undersampling and combination sampling, the balanced accuracy score are relatively the same and lower than the Ensemble Classifier  models.
   However, as the dataset inherently contains a much higher number of low risk loans, the accuracy score is not reliable in this case.
   
@@ -121,10 +121,12 @@ For comparison, two new machine learning models that reduce bias, ***"BalancedRa
   
 - **Recall (Sensitivity):**
   The recall score is an indication of how well the system returns predicted positive results, i.e. predicts low-risk when it is actually low risk and high-risk when it is actually high risk.
-  The recall scores from all six models are over 50%. The Ensemble models have much higher recall scores than the Oversampling or undersampling models.
+  The recall scores from all six models are over 50%. The Ensemble models have much higher recall scores than the oversampling or undersampling models.
   The high recall (sensitivity) scores is an indication that the predicted low-risk or high-risk are being relatively reliable.
   
 - **F1 Score:**
+  The F1 score is a combination of precision and recall (sensitivity). A high F1 score is an indication that the predictions have low quantities of false positives and false negatives.
+  All six models have a relatively high F1 score for the low risk loans (80% to 97%). However, the high risk loans have a much lower F1 score - potentially high number of false positives and false negatives. 
   
   
 In the first four models undersampled, oversampled and did a combination of both to try and determine which model is best at predicting which loans are the highest risk. 
